@@ -38,8 +38,8 @@ class MMA::School
 
         #school = self.new
         #school.name = doc.search("//div/p/span")[3].text.strip
-        school.location_info = doc.search("//div/p")[14].text.strip
-        school.url = doc.search("//div/p/a")[6].text.strip
+        #school.location_info = doc.search("//div/p")[14].text.strip
+        #school.url = doc.search("//div/p/a")[6].text.strip
 
         @schools
     end
