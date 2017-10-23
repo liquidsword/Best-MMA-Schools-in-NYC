@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require "bundler/setup"
+require "MMA"
+
+require './lib/MMA'
+MMA::CLI.new.call
