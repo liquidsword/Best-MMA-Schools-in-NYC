@@ -8,8 +8,11 @@ class MMA::CLI
         goodbye
     end
 
-    def list_MMA_schools  
+    def list_MMA_schools 
+          
         @schools = MMA::School.today
+        binding.pry
+        
         @schools.each.with_index(1) do |school, i|
             puts "#{i}. #{school.name} - #{school.location_info} - #{school.url}"
         end
