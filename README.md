@@ -6,3 +6,7 @@ To get started:
 1. Open terminal and change directory to cd mma.
 2. Once inside the directory type: ./bin/mma
 3. The console launches and you can enter the number listed for the top 5 mma schools in NYC.
+
+# Demo
+
+https://www.youtube.com/watch?v=zXHDOOgAEfE&t=30s
